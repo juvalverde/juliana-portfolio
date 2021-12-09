@@ -25,6 +25,13 @@ h1 {
 }
 
 h2 {
+  font-family: var(--header-font-family);
+  font-weight: 900;
+  color: var(--tertiary-gray);
+  font-size: 60px;
+}
+
+h3 {
   font-family: var(--general-font-family);
   font-weight: 400;
   font-size: 24px;
