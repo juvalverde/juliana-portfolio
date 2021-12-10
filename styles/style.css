@@ -150,9 +150,18 @@ small {
   margin-bottom: 0px;
 }
 
+.contact {
+  background-color: var(--accent-color);
+  padding: 20px 0px;
+}
+
 #about p {
   padding: 0px 40px 0 0;
   line-height: 1.6;
+}
+
+#contact {
+  background-color: var(--accent-color);
 }
 @media (max-width: 576px) {
   h1 {
