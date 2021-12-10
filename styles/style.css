@@ -11,14 +11,21 @@
 }
 
 /* CSS DEFAULT SELECTORS */
+body {
+  color: var(--tertiary-gray);
+}
+
 h1,
-h2,
+h2 {
+  font-family: var(--header-font-family);
+  font-weight: 900;
+}
+
 h3,
 h4,
 h5 {
-  color: var(--tertiary-gray);
-  font-family: var(--header-font-family);
-  font-weight: 900;
+  font-family: var(--general-font-family);
+  font-weight: 400;
 }
 
 h1 {
@@ -27,6 +34,11 @@ h1 {
 
 h2 {
   font-size: 60px;
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: 700;
 }
 
 h4 {
@@ -101,6 +113,14 @@ small {
 
 .work-description {
   margin-bottom: 12px;
+}
+
+.project-description {
+  padding: 80px;
+}
+
+.project-description p {
+  margin-bottom: 0px;
 }
 
 @media (max-width: 576px) {
