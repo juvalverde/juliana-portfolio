@@ -116,7 +116,11 @@ small {
 }
 
 .project-description {
-  padding: 80px;
+  padding: 100px 80px;
+}
+
+.right {
+  padding: 130px 80px 110px 0px;
 }
 
 .project-description p {
