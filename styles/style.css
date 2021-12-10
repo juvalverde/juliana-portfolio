@@ -4,8 +4,8 @@
   --primary-gray: #2e2e2e;
   --secondary-gray: #666666;
   --tertiary-gray: #999999;
-  --primary-bg: #d8d8d8;
-  --secondary-bg: #f6f6f6;
+  --primary-bg: #f6f6f6;
+  --secondary-bg: #d8d8d8;
   --header-font-family: "Playfair Display", serif;
   --general-font-family: "Poppins", sans-serif;
 }
@@ -16,7 +16,7 @@ body {
 }
 
 nav {
-  background-color: var(--secondary-bg);
+  background-color: var(--primary-bg);
   padding: 20px 0px !important;
 }
 
@@ -55,6 +55,7 @@ h4 {
   font-family: var(--general-font-family);
   font-weight: 400;
   font-size: 24px;
+  color: var(--secondary-gray);
 }
 
 p {
@@ -62,10 +63,11 @@ p {
   font-weight: 400;
   font-size: 14px;
   color: var(--secondary-gray);
+  margin-bottom: 0;
 }
 
 hr {
-  color: var(--primary-bg);
+  color: var(--secondary-bg);
   height: 2px !important;
   width: 30%;
   margin: 20px auto;
@@ -87,10 +89,21 @@ a:hover {
 }
 
 small {
-  background-color: var(--secondary-bg);
+  background-color: var(--primary-bg);
   padding: 8px 16px;
   border-radius: 20px;
   margin-right: 6px;
+  color: var(--secondary-gray);
+}
+
+footer {
+  background-color: var(--primary-bg);
+  text-align: center;
+  padding: 30px 0px;
+}
+
+footer p {
+  color: var(--tertiary-gray);
 }
 
 /* CUSTOM CLASSES */
@@ -108,7 +121,7 @@ small {
 }
 
 .hero {
-  background-color: var(--secondary-bg);
+  background-color: var(--primary-bg);
   text-align: center;
   padding: 160px 20px;
 }
