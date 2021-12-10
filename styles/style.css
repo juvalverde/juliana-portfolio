@@ -108,7 +108,7 @@ footer p {
 /* CUSTOM CLASSES */
 .home-link {
   font-size: 14px;
-  padding: 2px;
+  padding: 2px 2px 2px 12px !important;
   color: #000;
 }
 .nav-menu {
