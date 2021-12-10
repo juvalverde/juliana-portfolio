@@ -1,6 +1,4 @@
-/* font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif; */
-
+/* CSS VARIABLES */
 :root {
   --accent-color: #ffe8e8;
   --primary-gray: #2e2e2e;
@@ -12,11 +10,7 @@ font-family: 'Poppins', sans-serif; */
   --general-font-family: "Poppins", sans-serif;
 }
 
-/* body {
-  background-color: red;
-  color: #fff;
-} */
-
+/* CSS DEFAULT SELECTORS */
 h1 {
   font-family: var(--header-font-family);
   font-weight: 900;
@@ -66,6 +60,14 @@ a:hover {
   background-color: var(--accent-color);
 }
 
+small {
+  background-color: var(--secondary-bg);
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-right: 6px;
+}
+
+/* CUSTOM CLASSES */
 .hero {
   background-color: var(--secondary-bg);
   text-align: center;
@@ -84,4 +86,17 @@ a:hover {
 .links-container a {
   margin: 0px 10px;
   /* font-size: 12px; */
+}
+
+.work a {
+  position: relative;
+  top: 40px;
+  letter-spacing: 5px;
+}
+.work-dates {
+  text-transform: uppercase;
+}
+
+.work-description {
+  margin-bottom: 12px;
 }
