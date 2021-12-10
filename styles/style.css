@@ -15,6 +15,16 @@ body {
   color: var(--tertiary-gray);
 }
 
+nav {
+  background-color: var(--secondary-bg);
+  padding: 20px 0px !important;
+}
+
+nav a {
+  padding: 0px !important;
+  margin-right: 20px;
+}
+
 h1,
 h2 {
   font-family: var(--header-font-family);
@@ -84,6 +94,19 @@ small {
 }
 
 /* CUSTOM CLASSES */
+.home-link {
+  font-size: 14px;
+  padding: 2px;
+  color: #000;
+}
+.nav-menu {
+  border: none;
+}
+
+.nav-menu:focus {
+  box-shadow: none;
+}
+
 .hero {
   background-color: var(--secondary-bg);
   text-align: center;
