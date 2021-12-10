@@ -29,7 +29,7 @@ h2 {
   font-size: 60px;
 }
 
-h3 {
+h4 {
   font-family: var(--general-font-family);
   font-weight: 400;
   font-size: 24px;
@@ -91,7 +91,7 @@ small {
   margin: 0px 10px;
 }
 
-.work a {
+.section a {
   position: relative;
   top: 40px;
 }
