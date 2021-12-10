@@ -137,6 +137,9 @@ footer p {
 .links-container a {
   margin: 0px 10px;
 }
+.section {
+  padding-top: 40px;
+}
 
 .section a {
   position: relative;
@@ -164,18 +167,20 @@ footer p {
   margin-bottom: 0px;
 }
 
-.contact {
-  background-color: var(--accent-color);
-  padding: 20px 0px;
-}
-
-#about p {
+.about p {
   padding: 0px 40px 0 0;
   line-height: 1.6;
 }
 
-#contact {
+.contact {
+  background-color: var(--accent-color);
+  padding: 20px 0px;
   background-color: var(--primary-bg);
+  margin-top: 100px;
+}
+
+.contact .section {
+  padding-top: 0px;
 }
 
 @media (max-width: 576px) {
