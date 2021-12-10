@@ -85,7 +85,6 @@ small {
 
 .links-container a {
   margin: 0px 10px;
-  /* font-size: 12px; */
 }
 
 .work a {
@@ -99,4 +98,19 @@ small {
 
 .work-description {
   margin-bottom: 12px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 52px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .hero {
+    padding: 80px 20px;
+    text-align: left;
+  }
 }
