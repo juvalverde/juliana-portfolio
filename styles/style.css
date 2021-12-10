@@ -1,6 +1,6 @@
 /* CSS VARIABLES */
 :root {
-  --accent-color: #ffe8e8;
+  --accent-color: #ff99e8;
   --primary-gray: #2e2e2e;
   --secondary-gray: #666666;
   --tertiary-gray: #999999;
@@ -97,13 +97,12 @@ small {
 }
 
 footer {
-  background-color: var(--primary-bg);
   text-align: center;
   padding: 30px 0px;
 }
 
 footer p {
-  color: var(--tertiary-gray);
+  color: var(--accent-color);
 }
 
 /* CUSTOM CLASSES */
@@ -143,8 +142,10 @@ footer p {
   position: relative;
   top: 40px;
 }
+
 .work-dates {
   text-transform: uppercase;
+  color: var(--tertiary-gray);
 }
 
 .work-description {
@@ -174,8 +175,9 @@ footer p {
 }
 
 #contact {
-  background-color: var(--accent-color);
+  background-color: var(--primary-bg);
 }
+
 @media (max-width: 576px) {
   h1 {
     font-size: 52px;
