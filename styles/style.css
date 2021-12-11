@@ -182,6 +182,24 @@ footer p {
   padding-top: 0px;
 }
 
+@media (max-width: 991px) {
+  h3 {
+    font-size: 36px;
+  }
+  .project-description {
+    padding: 36px;
+  }
+}
+
+@media (max-width: 767px) {
+  h3 {
+    font-size: 30px;
+  }
+  .project-description {
+    padding: 0px 10px;
+  }
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 52px;
@@ -217,6 +235,6 @@ footer p {
   }
 
   .project-description {
-    padding: 20px 10px 0px;
+    padding: 0px 10px 0px;
   }
 }
