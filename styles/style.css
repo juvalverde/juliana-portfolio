@@ -135,15 +135,11 @@ footer p {
 }
 
 .links-container a {
-  margin: 0px 10px;
-}
-.section {
-  padding-top: 40px;
+  margin: 0px 10px 0px 0px;
 }
 
-.section a {
-  position: relative;
-  top: 40px;
+.section {
+  padding-top: 40px;
 }
 
 .work-dates {
@@ -203,9 +199,17 @@ footer p {
     background-color: var(--accent-color);
   }
 
+  .links-container a {
+    background-color: transparent;
+  }
+
   .hero {
     padding: 80px 20px;
     text-align: left;
+  }
+
+  .links-container a {
+    display: block;
   }
 
   .work-dates {
