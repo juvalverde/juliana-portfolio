@@ -155,16 +155,19 @@ footer p {
   margin-bottom: 12px;
 }
 
+.project a {
+  top: 12px;
+}
 .project-description {
   padding: 100px 80px;
 }
 
-.right {
-  padding: 130px 80px 110px 0px;
-}
-
 .project-description p {
   margin-bottom: 0px;
+}
+
+.right {
+  padding: 130px 80px 110px 0px;
 }
 
 .about p {
@@ -192,8 +195,24 @@ footer p {
     display: none;
   }
 
+  h3 {
+    font-size: 30px;
+  }
+
+  .section a {
+    background-color: var(--accent-color);
+  }
+
   .hero {
     padding: 80px 20px;
     text-align: left;
+  }
+
+  .work-dates {
+    margin-bottom: 12px;
+  }
+
+  .project-description {
+    padding: 20px 10px 0px;
   }
 }
