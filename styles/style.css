@@ -134,14 +134,9 @@ footer p {
   text-transform: uppercase;
 }
 
-.links-container .col-sm-6 {
-  padding-left: 0px;
-}
-
-/* .links-container a {
+.links-container a {
   margin: 0px 10px;
-} */
-
+}
 .section {
   padding-top: 40px;
 }
