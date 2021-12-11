@@ -1,4 +1,4 @@
-/* CSS VARIABLES */
+/************ CSS VARIABLES ************/
 :root {
   --accent-color: #ff99e8;
   --primary-gray: #2e2e2e;
@@ -10,7 +10,7 @@
   --general-font-family: "Poppins", sans-serif;
 }
 
-/* CSS DEFAULT SELECTORS */
+/************ CSS DEFAULT SELECTORS ************/
 body {
   color: var(--tertiary-gray);
 }
@@ -105,12 +105,13 @@ footer p {
   color: var(--accent-color);
 }
 
-/* CUSTOM CLASSES */
+/************ CUSTOM CLASSES ************/
 .home-link {
   font-size: 14px;
   padding: 2px 2px 2px 12px !important;
   color: #000;
 }
+
 .nav-menu {
   border: none;
 }
@@ -139,7 +140,7 @@ footer p {
 }
 
 .section {
-  padding-top: 40px;
+  padding-top: 46px;
 }
 
 .work-dates {
@@ -151,9 +152,6 @@ footer p {
   margin-bottom: 12px;
 }
 
-.project a {
-  top: 12px;
-}
 .project-description {
   padding: 100px 80px;
 }
@@ -172,7 +170,6 @@ footer p {
 }
 
 .contact {
-  background-color: var(--accent-color);
   padding: 20px 0px;
   background-color: var(--primary-bg);
   margin-top: 100px;
@@ -182,6 +179,7 @@ footer p {
   padding-top: 0px;
 }
 
+/************ MEDIA QUERIES ************/
 @media (max-width: 991px) {
   h3 {
     font-size: 36px;
