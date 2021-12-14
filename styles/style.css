@@ -179,6 +179,10 @@ footer p {
   padding-top: 0px;
 }
 
+.project-card h4 {
+  font-weight: 700;
+}
+
 /************ MEDIA QUERIES ************/
 @media (max-width: 991px) {
   h3 {
