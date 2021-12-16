@@ -135,12 +135,6 @@ footer p {
   text-transform: uppercase;
 }
 
-/* .cta:hover {
-  background-color: #000;
-  color: var(--accent-color);
-  transition: all 100ms ease-in-out;
-} */
-
 .links-container a {
   margin: 0px 10px 0px 0px;
 }
