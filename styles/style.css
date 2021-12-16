@@ -191,6 +191,11 @@ footer p {
   .project-description {
     padding: 36px;
   }
+
+  .links-container a {
+    background-color: transparent;
+    display: block;
+  }
 }
 
 @media (max-width: 767px) {
@@ -199,6 +204,11 @@ footer p {
   }
   .project-description {
     padding: 0px 10px;
+  }
+
+  .links-container a {
+    background-color: transparent;
+    display: block;
   }
 }
 
@@ -225,15 +235,12 @@ footer p {
 
   .links-container a {
     background-color: transparent;
+    display: block;
   }
 
   .hero {
     padding: 80px 20px;
     text-align: left;
-  }
-
-  .links-container a {
-    display: block;
   }
 
   .work-dates {
