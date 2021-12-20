@@ -149,6 +149,7 @@ footer p a:hover {
   padding: 24px 46px;
   border: 0px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .links-container a {
@@ -232,6 +233,10 @@ footer p a:hover {
     background-color: transparent;
     display: block;
   }
+
+  p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -245,6 +250,10 @@ footer p a:hover {
 
   h3 {
     font-size: 30px;
+  }
+
+  p {
+    font-size: initial;
   }
 
   .navbar {
