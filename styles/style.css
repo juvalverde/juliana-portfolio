@@ -199,6 +199,12 @@ footer p a:hover {
   font-weight: 700;
 }
 
+.key-points {
+  /* background-color: pink; */
+  text-align: center;
+  color: var(--primary-gray);
+}
+
 /************ MEDIA QUERIES ************/
 @media (max-width: 991px) {
   h3 {
